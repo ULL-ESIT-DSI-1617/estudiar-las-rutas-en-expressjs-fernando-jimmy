@@ -1,0 +1,29 @@
+{
+  "name": "estudiar-las-rutas-en-expressjs",
+  "version": "0.0.1",
+  "description": "Este proyecto es una práctica de la asignatura _Desarrollo de Sistemas Informáticos_ del grado de Ingeniería Informática de la Universidad de La Laguna, en la que describiremos el uso de las rutas en **ExpressJS**.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-DSI-1617/estudiar-las-rutas-en-expressjs-fernando-jimmy.git",
+    "gitbook": "https://git.gitbook.com/didream/estudiar-las-rutas-en-expressjs-fernando-jimmy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-DSI-1617/estudiar-las-rutas-en-expressjs-fernando-jimmy/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-DSI-1617/estudiar-las-rutas-en-expressjs-fernando-jimmy#readme",
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "gitbook-cli": "^2.3.0",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.1"
+  }
+}
