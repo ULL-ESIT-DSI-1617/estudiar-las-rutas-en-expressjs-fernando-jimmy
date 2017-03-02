@@ -18,3 +18,5 @@
     * [Middleware incorporado](Middlewares/using-middlewares.md#middleware-incorporado)
     * [Middleware de terceros](Middlewares/using-middlewares.md#middleware-de-terceros)
 * Router
+    * [¿Qué es un router?](Router/router.md)
+    * [Métodos](Router/router.md#métodos)
