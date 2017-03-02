@@ -1,0 +1,681 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>¿Qué es un router? · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="router.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introducción
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    Direccionamiento
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../basic-routing.html">
+            
+                <a href="../basic-routing.html">
+            
+                    
+                    Direccionamiento básico
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../...">
+            
+                <span>
+            
+                    
+                    Métodos de ruta
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../...">
+            
+                <span>
+            
+                    
+                    Sintaxis de la ruta
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../...">
+            
+                <span>
+            
+                    
+                    Parámetros
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../...">
+            
+                <span>
+            
+                    
+                    Manejadores
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../...">
+            
+                <span>
+            
+                    
+                    Métodos de para la respuesta
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../...">
+            
+                <span>
+            
+                    
+                    app.route()
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../...">
+            
+                <span>
+            
+                    
+                    express.Router
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Middleware
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../Middlewares/using-middlewares.html">
+            
+                <a href="../Middlewares/using-middlewares.html">
+            
+                    
+                    ¿Qué son las middlewares?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../Middlewares/using-middlewares.html">
+            
+                <a href="../Middlewares/using-middlewares.html#middleware-de-nivel-de-aplicación">
+            
+                    
+                    Middleware de nivel de aplicación
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../Middlewares/using-middlewares.html">
+            
+                <a href="../Middlewares/using-middlewares.html#middleware-de-nivel-de-direccionador">
+            
+                    
+                    Middleware de nivel de direccionador
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../Middlewares/using-middlewares.html">
+            
+                <a href="../Middlewares/using-middlewares.html#middleware-de-manejo-de-errores">
+            
+                    
+                    Middleware de manejor de errores
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../Middlewares/using-middlewares.html">
+            
+                <a href="../Middlewares/using-middlewares.html#middleware-incorporado">
+            
+                    
+                    Middleware incorporado
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../Middlewares/using-middlewares.html">
+            
+                <a href="../Middlewares/using-middlewares.html#middleware-de-terceros">
+            
+                    
+                    Middleware de terceros
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    Router
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.4.1" data-path="router.html">
+            
+                <a href="router.html">
+            
+                    
+                    ¿Qué es un router?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="router.html">
+            
+                <a href="router.html#métodos">
+            
+                    
+                    Métodos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >¿Qué es un router?</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="documentaci&#xF3;n-de-la-api-de-router">Documentaci&#xF3;n de la API de Router</h1>
+<p>Un objeto router es una instancia aislada de middleware y rutas. Se comporta como una
+middleware, por lo que puedes los puedes usar como argumento para app.use() o como
+argumento para otro m&#xE9;todo .use() de otro router. </p>
+<p>El objeto express de m&#xE1;s alto nivel tiene un m&#xE9;todo Router() para crear un nuevo objeto router.</p>
+<p>Cuando el objeto se haya creado, se podr&#xE1;n a&#xF1;adir rutas middleware y de m&#xE9;todos HTTP
+(como get, put, post, etc.) como si fuera una aplicaci&#xF3;n, por ejemplo:</p>
+<pre><code class="lang-js"><span class="hljs-comment">// Invocado para cualquier solicitud.</span>
+router.use(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next</span>) </span>{
+  <span class="hljs-comment">// Aqu&#xED; ir&#xE1; c&#xF3;digo... Como otra middleware por ejemplo.</span>
+  next();
+});
+
+<span class="hljs-comment">// Se encargar&#xE1; de cuaquier solicitud al directorio /events</span>
+<span class="hljs-comment">// depende de donde el router sea &quot;usado&quot;</span>
+router.get(<span class="hljs-string">&apos;/events&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next</span>) </span>{
+  <span class="hljs-comment">// ..</span>
+});
+</code></pre>
+<p>Se podr&#xE1; entonces usar un router para una URL en particular de esta forma, para asi 
+separar las rutas en archivos o incluso en &quot;mini-apps&quot;.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// solo solicitudes a &quot;/calendar&quot; ser&#xE1;n enviadas a nuestro &quot;router&quot;.</span>
+app.use(<span class="hljs-string">&apos;/calendar&apos;</span>, router);
+</code></pre>
+<h2 id="m&#xE9;todos">M&#xE9;todos</h2>
+<h3 id="routerallpath-callback--callback">router.all(path, [callback, ...] callback)</h3>
+<p>Este m&#xE9;todo se encarga de todas las solicitudes HTTP. Es extremadamente &#xFA;til 
+para cargar c&#xF3;digo que tenga que ejecutarse de forma global. Por ejemplo,
+si el siguiente c&#xF3;digo lo escribimos en lo m&#xE1;s alto de la jerarqu&#xED;a de las
+definiciones de rutas, significar&#xED;a que cada vez que accedamos a cualquier
+directorio, se requerir&#xE1; de una autenticaci&#xF3;n.</p>
+<pre><code class="lang-js">router.all(<span class="hljs-string">&apos;*&apos;</span>, requireAuthentication, loadUser);
+</code></pre>
+<p>De esta forma, al acceder a cualquier directorio, ejecutaremos la callback
+&quot;requireAuthentication&quot;, seguido de &quot;loadUser&quot; y luego puede haber un &quot;next()&quot; 
+para la siguiente middleware.</p>
+<h3 id="routermethodpath-callback--callback">router.METHOD(path, [callback, ...] callback)</h3>
+<p>Este m&#xE9;todo proporciona la funcionalidad de enrutamiento en Express para solicitudes
+HTTP concretas (get, post, etc.)</p>
+<p>Se pueden especificar varias callbacks, e incluso alguna puede incluir
+&quot;next(&apos;route&apos;)&quot; para saltarse la invocaci&#xF3;n de una callback determinada en 
+caso de que se cumpla (o no) una condici&#xF3;n determinada.</p>
+<p>El siguiente ejemplo ilustra la definici&#xF3;n m&#xE1;s simple de una ruta. </p>
+<pre><code class="lang-js">router.get(<span class="hljs-string">&apos;/&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res</span>)</span>{
+  res.send(<span class="hljs-string">&apos;hello world&apos;</span>);
+});
+</code></pre>
+<p>Tambi&#xE9;n podemos usar expresiones regulares:</p>
+<pre><code class="lang-js">router.get(<span class="hljs-regexp">/^\/commits\/(\w+)(?:\.\.(\w+))?$/</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res</span>)</span>{
+  <span class="hljs-keyword">var</span> <span class="hljs-keyword">from</span> = req.params[<span class="hljs-number">0</span>];
+  <span class="hljs-keyword">var</span> to = req.params[<span class="hljs-number">1</span>] || <span class="hljs-string">&apos;HEAD&apos;</span>;
+  res.send(<span class="hljs-string">&apos;commit range &apos;</span> + <span class="hljs-keyword">from</span> + <span class="hljs-string">&apos;..&apos;</span> + to);
+});
+</code></pre>
+<h3 id="routerparamname-callback">router.param(name, callback)</h3>
+<p>A&#xF1;ade &quot;disparadores&quot; a los par&#xE1;metros de la ruta, donde &quot;name&quot; es el nombre
+del par&#xE1;metro y callback es una funci&#xF3;n callback.</p>
+<p>Los par&#xE1;metros de la funci&#xF3;n callback son:</p>
+<ul>
+<li>req, el objecto solicitud.</li>
+<li>res, el objeto respuesta.</li>
+<li>next, indica la siguiente middleware.</li>
+<li>El valor del par&#xE1;metro name.</li>
+<li>El nombre del par&#xE1;metro. </li>
+</ul>
+<p>Por ejemplo, cuando &quot;:user&quot; est&#xE1; presente en el camino de una ruta, puedes
+ejecutar c&#xF3;digo para que autom&#xE1;ticamente se facilite &quot;req.user&quot; a la ruta.</p>
+<pre><code class="lang-js">router.param(<span class="hljs-string">&apos;user&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next, id</span>) </span>{
+
+  <span class="hljs-comment">// try to get the user details from the User model and attach it to the request object</span>
+  User.find(id, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">err, user</span>) </span>{
+    <span class="hljs-keyword">if</span> (err) {
+      next(err);
+    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (user) {
+      req.user = user;
+      next();
+    } <span class="hljs-keyword">else</span> {
+      next(<span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;failed to load user&apos;</span>));
+    }
+  });
+});
+</code></pre>
+<p>Las funciones callback de param son locales al router en el que son definidas. 
+No se heredan en apps o router subsiguientes. Por tanto, las callbakc de param
+definidas en router ser&#xE1;n ejecutadas solo por par&#xE1;metros de ruta definidos
+en las rutas de router. </p>
+<p>Una callback de param ser&#xE1; llamada solo una vez en un ciclo solicitud-respuesta, 
+incluso si el par&#xE1;metro coincide en varias rutas, como se muestra a 
+continuaci&#xF3;n:</p>
+<pre><code class="lang-js">router.param(<span class="hljs-string">&apos;id&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res, next, id</span>) </span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;CALLED ONLY ONCE&apos;</span>);
+  next();
+});
+
+router.get(<span class="hljs-string">&apos;/user/:id&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res, next</span>) </span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;although this matches&apos;</span>);
+  next();
+});
+
+router.get(<span class="hljs-string">&apos;/user/:id&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">req, res</span>) </span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;and this matches too&apos;</span>);
+  res.end();
+});
+</code></pre>
+<p>Si ejecutamos GET /user/42, se muestra los siguiente en la consola:</p>
+<pre><code class="lang-bash">CALLED ONLY ONCE
+although this matches
+and this matches too
+</code></pre>
+<h3 id="routerroutepath">router.route(path)</h3>
+<p>Devuelve una instancia de una sola ruta la cual se puede usar para manejar 
+peticiones HTTP con middleware opcionales. Usa router.route() para evitar nombres
+de ruta duplicados y por tanto, errores de escritura.</p>
+<p>Partiendo del ejemplo de router.param() de arriba, el siguiente c&#xF3;digo muestro como usar router.route() para especificar varios manejadores de m&#xE9;todos HTTP.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> router = express.Router();
+
+router.param(<span class="hljs-string">&apos;user_id&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next, id</span>) </span>{
+  <span class="hljs-comment">// sample user, would actually fetch from DB, etc...</span>
+  req.user = {
+    id: id,
+    name: <span class="hljs-string">&apos;TJ&apos;</span>
+  };
+  next();
+});
+
+router.route(<span class="hljs-string">&apos;/users/:user_id&apos;</span>)
+.all(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next</span>) </span>{
+  <span class="hljs-comment">// runs for all HTTP verbs first</span>
+  <span class="hljs-comment">// think of it as route specific middleware!</span>
+  next();
+})
+.get(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next</span>) </span>{
+  res.json(req.user);
+})
+.put(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next</span>) </span>{
+  <span class="hljs-comment">// just an example of maybe updating the user</span>
+  req.user.name = req.params.name;
+  <span class="hljs-comment">// save user ... etc</span>
+  res.json(req.user);
+})
+.post(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next</span>) </span>{
+  next(<span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;not implemented&apos;</span>));
+})
+.delete(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next</span>) </span>{
+  next(<span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(<span class="hljs-string">&apos;not implemented&apos;</span>));
+});
+</code></pre>
+<h3 id="routerusepath-function--function">router.use([path], [function, ...] function)</h3>
+<p>Usa el middleware o middleware especificado, con un punto de montaje path opciones, que por defecto es &quot;/&quot;.</p>
+<p>Este m&#xE9;todo es similar al app.use(). </p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> express = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;express&apos;</span>);
+<span class="hljs-keyword">var</span> app = express();
+<span class="hljs-keyword">var</span> router = express.Router();
+
+<span class="hljs-comment">// simple logger for this router&apos;s requests</span>
+<span class="hljs-comment">// all requests to this router will first hit this middleware</span>
+router.use(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next</span>) </span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;%s %s %s&apos;</span>, req.method, req.url, req.path);
+  next();
+});
+
+<span class="hljs-comment">// this will only be invoked if the path starts with /bar from the mount point</span>
+router.use(<span class="hljs-string">&apos;/bar&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next</span>) </span>{
+  <span class="hljs-comment">// ... maybe some additional /bar logging ...</span>
+  next();
+});
+
+<span class="hljs-comment">// always invoked</span>
+router.use(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res, next</span>) </span>{
+  res.send(<span class="hljs-string">&apos;Hello World&apos;</span>);
+});
+
+app.use(<span class="hljs-string">&apos;/foo&apos;</span>, router);
+
+app.listen(<span class="hljs-number">3000</span>);
+</code></pre>
+<p>El orden de escritura de los middleware es muy importante, pues se ejecutan 
+en orden secuencial, de arriba a abajo. Lo normal es poner como primer middleware
+uno de autenticaci&#xF3;n.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> logger = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;morgan&apos;</span>);
+
+router.use(logger());
+router.use(express.static(__dirname + <span class="hljs-string">&apos;/public&apos;</span>));
+router.use(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">req, res</span>)</span>{
+  res.send(<span class="hljs-string">&apos;Hello&apos;</span>);
+});
+</code></pre>
+<p>Este ejemplo proporciona archivos desde el directorio &quot;/public&quot; y si no se encuentran ah&#xED;, 
+busca en los dem&#xE1;s y as&#xED; sucesivamente:</p>
+<pre><code class="lang-js">app.use(express.static(__dirname + <span class="hljs-string">&apos;/public&apos;</span>));
+app.use(express.static(__dirname + <span class="hljs-string">&apos;/files&apos;</span>));
+app.use(express.static(__dirname + <span class="hljs-string">&apos;/uploads&apos;</span>));
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="router.html#métodos" class="navigation navigation-next navigation-unique" aria-label="Next page: Métodos">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"¿Qué es un router?","level":"1.4.1","depth":2,"next":{"title":"Métodos","level":"1.4.2","depth":2,"anchor":"#métodos","path":"Router/router.md","ref":"Router/router.md#métodos","articles":[]},"previous":{"title":"Router","level":"1.4","depth":1,"ref":"","articles":[{"title":"¿Qué es un router?","level":"1.4.1","depth":2,"path":"Router/router.md","ref":"Router/router.md","articles":[]},{"title":"Métodos","level":"1.4.2","depth":2,"anchor":"#métodos","path":"Router/router.md","ref":"Router/router.md#métodos","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Router/router.md","mtime":"2017-03-02T23:46:48.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-03-02T23:46:52.551Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
