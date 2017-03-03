@@ -2,14 +2,14 @@
 
 * [Introducción](README.md)
 * Direccionamiento
-    * [Direccionamiento básico](basic-routing.md)
-    * [Métodos de ruta](...)
-    * [Sintaxis de la ruta](...)
-    * [Parámetros](...)
-    * [Manejadores](...)
-    * [Métodos de para la respuesta](...)
-    * [app.route()](...)
-    * [express.Router](...)
+    * [Direccionamiento básico](direccionamiento/basic-routing.md)
+    * [Métodos de ruta](direccionamiento/route-methods.md)
+    * [Sintaxis de la ruta](direccionamiento/route-paths.md)
+    * [Parámetros](direccionamiento/route-parameters.md)
+    * [Manejadores](direccionamiento/route-handlers.md)
+    * [Métodos de respuesta](direccionamiento/response-methods.md)
+    * [app.route()](direccionamiento/app-route.md)
+    * [express.Router](direccionamiento/express-router.md)
 * Middleware
     * [¿Qué son las middlewares?](Middlewares/using-middlewares.md)
     * [Middleware de nivel de aplicación](Middlewares/using-middlewares.md#middleware-de-nivel-de-aplicación)
