@@ -3,7 +3,8 @@ var
     express = require('express'),
     app = express(),
     port = process.env.PORT || 3000,
-    birds = require('./birds.js');
+    birds = require('./birds.js'),
+    router = express.Router();
 
 /* DIRECCIONAMIENTO */
 
@@ -105,6 +106,25 @@ app.route('/book')
 
 /* END DIRECCIONAMIENTO */
 
+/* MIDDLEWARE */
+app.use('/user/:id', function(req, res, next) {
+  console.log('Request URL:', req.originalUrl);
+  next();
+}, function (req, res, next) {
+  console.log('Request Type:', req.method);
+  next();
+});
+
+//Middleware con router
+router.use('/user/:id', function(req, res, next) {
+  console.log('Request URL:', req.originalUrl);
+  next();
+}, function (req, res, next) {
+  console.log('Request Type:', req.method);
+  next();
+});
+
+/* END MIDDLEWARE*/
 
 app.listen(port,(err)=>{
     if (err){
