@@ -7,6 +7,10 @@ Este proyecto es una práctica de la asignatura _Desarrollo de Sistemas Informá
 [Fernando Nantes-Machado Toledo](https://alu100897975.github.io)
 
 ### Enlaces de interés
+[Campus virtual](https://campusvirtual.ull.es/1617/course/view.php?id=1136)
+
+[Descripción de la tarea](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicalearningrouting.html)
+
 [Libro en Github](https://ull-esit-dsi-1617.github.io/estudiar-las-rutas-en-expressjs-fernando-jimmy/)
 
 [Libro en GitBook](https://didream.gitbooks.io/estudiar-las-rutas-en-expressjs-fernando-jimmy/content/)
